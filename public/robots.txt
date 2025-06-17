@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.soundmining.com
+
+# Sitemaps
+Sitemap: https://www.soundmining.com/sitemap.xml
