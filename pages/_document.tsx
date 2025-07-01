@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           name="google-site-verification"
-          content="Z8mKKw8R2ot6CxlPXCiS8huv3VlqERrKp0jWMSTsrRc"
+          content="vxjtIC3iqqfa_ZjS4ftwfyw0DIo0arIswm_FAetnCyI"
         />
         {/* <script
           src="https://www.bugherd.com/sidebarv2.js?apikey=pfxhlfgixlgcrpxbbndoha"
