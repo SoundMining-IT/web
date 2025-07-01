@@ -317,6 +317,9 @@ const MiningCarousel = () => {
 
         <div className="info-box">
           <FadeInText>
+            <div className="free-form-text">
+              <h1>{currentSlideData.bottomHeader}</h1>
+            </div>
             <h2
               className="mining-title"
               style={{
@@ -327,6 +330,11 @@ const MiningCarousel = () => {
             >
               {currentSlideData.title}
             </h2>
+            <FadeInText delay={0.3}>
+              <p style={{ minHeight: "100px" }}>
+                {currentSlideData.description}
+              </p>
+            </FadeInText>
           </FadeInText>
 
           <FadeInText delay={0.15}>
@@ -369,17 +377,6 @@ const MiningCarousel = () => {
                   Animation not available
                 </div>
               )}
-            </div>
-          </FadeInText>
-
-          <FadeInText delay={0.3}>
-            <p style={{ minHeight: "100px" }}>{currentSlideData.description}</p>
-            <div className="free-form-text">
-              <FadeInText>
-                {" "}
-                {/* This nested FadeInText might be redundant if parent already fades in */}
-                <h1>{currentSlideData.bottomHeader}</h1>
-              </FadeInText>
             </div>
           </FadeInText>
 

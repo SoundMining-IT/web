@@ -13,7 +13,7 @@ import dynamic from "next/dynamic";
 import React, { useState } from "react";
 
 const ProjectSolutions = () => {
-  const pageTitle = "Technical Expertise";
+  const pageTitle = "Project Management and Execution";
   const pageDescription =
     "Deliver complex resource projects with confidence. We lead execution through expert planning, integrated controls, and fit-for-purpose teams.";
   const pageImage = "/images/Sound Mining logo.jpg";
