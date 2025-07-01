@@ -11,6 +11,7 @@ import { CorporateAdvisoryTabData } from "@/data/CorporateAdvisoryData";
 import SeoMeta from "@/components/SEO";
 import HeroMobile from "@/components/MobileHero";
 import dynamic from "next/dynamic";
+import ResponsiveTabsComponent from "@/components/MobileTabs";
 
 const CorporateAdvisory = () => {
   const pageTitle = "Corporate Advisory";
@@ -109,6 +110,10 @@ const CorporateAdvisory = () => {
             tabs={CorporateAdvisorytabs}
             tabContents={CorporateAdvisoryTabData}
           />
+          {/* <ResponsiveTabsComponent
+            tabs={CorporateAdvisorytabs}
+            tabContents={CorporateAdvisoryTabData}
+          /> */}
         </div>
       </section>
 

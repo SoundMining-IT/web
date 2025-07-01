@@ -125,6 +125,16 @@
     cursor: pointer;
   }
 
+  @media screen and (min-width: 989px) and (max-width: 1400px) {
+    .icon-container {
+      width: 120px !important;
+    }
+
+    .text-content {
+      padding-left: 70px;
+    }
+  }
+
   /* Responsive */
   @media screen and (max-width: 768px) {
     .carousel-container {

@@ -95,4 +95,24 @@
   #solutions-container .cta-button {
     width: unset;
   }
+
+  .phone-carousel-container {
+    p {
+      max-width: 15% !important;
+    }
+    .right-down {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    h2 {
+      max-width: 15%;
+    }
+
+    h3 {
+      max-width: 100%;
+      align-self: center;
+    }
+  }
 }

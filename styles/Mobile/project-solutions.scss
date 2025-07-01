@@ -46,10 +46,14 @@
   }
 }
 
-@media screen and (min-width: 1100px) and (max-width: 1400px) {
+@media screen and (min-width: 989px) and (max-width: 1400px) {
+  .tabs-container {
+    max-width: 800px !important;
+    margin-left: -250px !important;
+  }
   .tabs-container .project-management-container {
-    max-width: 1000px !important;
-    margin-left: -10px !important;
+    // max-width: 800px !important;
+    // margin-left: -20px !important;
 
     .subtabs-container {
       scale: 0.7;
@@ -61,5 +65,6 @@
 
   .cta-button-projects {
     margin-top: 20px !important;
+    margin-left: 100px;
   }
 }

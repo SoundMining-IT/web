@@ -37,6 +37,12 @@
   }
 }
 
+@media screen and (min-width: 989px) and (max-width: 1400px) {
+  .env-button {
+    margin-left: 40% !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .subtabs-container {
     display: none !important;
@@ -79,7 +85,7 @@
 }
 
 .env-button {
-  margin-left: 0px !important;
+  margin-left: 0px;
 }
 
 #logo-title {
@@ -171,6 +177,11 @@
     margin-bottom: 25rem;
     z-index: 99999;
     backdrop-filter: blur(8px);
+
+    @media screen and (max-width: 768px) {
+      margin-top: 50px;
+      padding: 80px 100px !important;
+    }
 
     .stat-wrapper {
       gap: 5rem;
@@ -462,6 +473,10 @@
       font-size: var(--text-xxlarge);
       font-family: var(--tertiary-font) !important;
       padding-bottom: 3rem;
+
+      @media screen and (min-width: 989px) and (max-width: 1400px) {
+        justify-content: center;
+      }
     }
   }
 }
@@ -1077,6 +1092,12 @@
   position: absolute;
   scale: 0.8;
   right: -50px;
+  top: 50px;
+
+  @media screen and (min-width: 989px) and (max-width: 1400px) {
+    scale: 0.7;
+    right: -65px;
+  }
 }
 
 .trucks-side {
@@ -1085,6 +1106,11 @@
 
   @media screen and (max-width: 768px) {
     display: none !important;
+  }
+
+  @media screen and (min-width: 989px) and (max-width: 1400px) {
+    scale: 0.9;
+    left: -30px !important;
   }
 }
 
@@ -1197,6 +1223,12 @@
     }
   }
 
+  @media screen and (min-width: 989px) and (max-width: 1400px) {
+    .section-label h1 {
+      margin-left: 15% !important;
+    }
+  }
+
   @media screen and (min-width: 1400px) and (max-width: 1700px) {
     .trucks-side {
       scale: 0.7 !important;
@@ -1233,8 +1265,32 @@
 }
 
 .corp-tabs {
+  padding-inline: 100px;
   .tabs-header {
     padding-bottom: 50px !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    .left-section {
+      img {
+        padding-right: 0px !important;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 989px) and (max-width: 1400px) {
+  .tab-item {
+    max-width: 200px !important;
+    font-size: var(--text-medium) !important;
+  }
+
+  .section-label h1 {
+    margin-left: 100px;
+  }
+
+  .tabs-header {
+    gap: 20px !important;
   }
 }
 
