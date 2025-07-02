@@ -23,7 +23,7 @@
   }
 
   .text-content {
-    width: 30%;
+    width: 100%;
     margin-left: -200px;
   }
 
@@ -65,7 +65,7 @@
   .prev,
   .next {
     position: absolute;
-    top: 50%;
+    top: 80%;
     transform: translateY(-50%);
     background: none !important;
     border: none;
