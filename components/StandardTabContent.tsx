@@ -117,61 +117,70 @@ const StandardTabContent: React.FC<StandardTabContentProps> = ({
         <img src={image} alt={altText} />
       </div>
       <div className="right-section">
-        <div className="right-down">
-          <h2>
-            <strong>{heading}</strong>
-          </h2>
-          <div className="right-double">
-            {p1Strong && (
-              <p style={{ paddingBottom: "20px" }}>
-                <strong>{p1Strong}</strong>
-              </p>
-            )}
-            <p>{p1Regular}</p>
+        <div
+          className="rs-content"
+          style={{
+            paddingLeft: "50px",
+          }}
+        >
+          <div className="right-down">
+            <h2>
+              <strong>{heading}</strong>
+            </h2>
+            <div className="right-double">
+              {p1Strong && (
+                <p style={{ paddingBottom: "20px" }}>
+                  <strong>{p1Strong}</strong>
+                </p>
+              )}
+              <p>{p1Regular}</p>
+            </div>
           </div>
-        </div>
-        <h3 style={{ paddingTop: "20px", color: "var(--color3)" }}>
-          <strong>{subHeading}</strong>
-        </h3>
+          <h3 style={{ paddingTop: "20px", color: "var(--color3)" }}>
+            <strong>{subHeading}</strong>
+          </h3>
 
-        {items && items.length > 0 ? (
-          <div className="subtabs-container">
-            {items.map((subTab, index) => {
-              const isActive = isItemVisuallyActive(index);
-              return (
-                <div
-                  key={`${subTab.label}-${index}`}
-                  className={`subtab-item ${isActive ? "active" : ""}`}
-                  onMouseEnter={() => handleMouseEnter(index)}
-                  onMouseLeave={handleMouseLeave}
-                  onClick={() => handleClick(index)}
-                >
-                  <div className="subtab-content">
-                    <div className="icon-container">
-                      <Image
-                        src={isActive ? subTab.activeIcon : subTab.inactiveIcon}
-                        alt={subTab.label}
-                        width={24} // Provide appropriate width (e.g., 24px)
-                        height={24} // Provide appropriate height (e.g., 24px)
-                        className="subtab-icon"
-                        layout="responsive"
-                        quality={75} // Default, adjust if needed
-                      />
+          {items && items.length > 0 ? (
+            <div className="subtabs-container">
+              {items.map((subTab, index) => {
+                const isActive = isItemVisuallyActive(index);
+                return (
+                  <div
+                    key={`${subTab.label}-${index}`}
+                    className={`subtab-item ${isActive ? "active" : ""}`}
+                    onMouseEnter={() => handleMouseEnter(index)}
+                    onMouseLeave={handleMouseLeave}
+                    onClick={() => handleClick(index)}
+                  >
+                    <div className="subtab-content">
+                      <div className="icon-container">
+                        <Image
+                          src={
+                            isActive ? subTab.activeIcon : subTab.inactiveIcon
+                          }
+                          alt={subTab.label}
+                          width={24} // Provide appropriate width (e.g., 24px)
+                          height={24} // Provide appropriate height (e.g., 24px)
+                          className="subtab-icon"
+                          layout="responsive"
+                          quality={75} // Default, adjust if needed
+                        />
+                      </div>
+                      <span className="subtab-label">{subTab.label}</span>
                     </div>
-                    <span className="subtab-label">{subTab.label}</span>
                   </div>
-                </div>
-              );
-            })}
-          </div>
-        ) : extraImage ? (
-          <div className="extra-image-container">
-            <img src={extraImage} alt="Valuations Supplementary Visual" />
-          </div>
-        ) : null}
+                );
+              })}
+            </div>
+          ) : extraImage ? (
+            <div className="extra-image-container">
+              <img src={extraImage} alt="Valuations Supplementary Visual" />
+            </div>
+          ) : null}
 
-        <div className="cta-button-container">
-          <AnimatedButton text={ctaText} href={ctaHref} />
+          <div className="cta-button-container">
+            <AnimatedButton text={ctaText} href={ctaHref} />
+          </div>
         </div>
       </div>
     </div>

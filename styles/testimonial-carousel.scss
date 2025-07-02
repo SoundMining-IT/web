@@ -28,6 +28,7 @@
     overflow: visible;
     width: 100%;
     max-width: 1200px;
+    z-index: 2;
   }
 
   .carousel-container {
@@ -48,6 +49,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    backdrop-filter: blur(2px);
     padding: 20px;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -159,13 +161,11 @@
     background-image: url("../public/images/CornerRock.webp");
     background-repeat: no-repeat;
     width: 100% !important;
-    height: 697px;
+    background-position: bottom left;
+    background-size: contain;
+    height: 85vh !important;
     z-index: 999;
     pointer-events: none !important;
-
-    @media screen and (min-width: 1400px) and (max-width: 1700px) {
-      // bottom: -55.5% !important;
-    }
   }
 }
 
@@ -174,6 +174,8 @@
   bottom: 0px;
   background-image: url("../public/images/Full rock.webp");
   background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
   width: 100% !important;
   height: 100%;
   z-index: 99;
@@ -184,6 +186,8 @@
   bottom: 0px;
   background-image: url("../public/images/Piece of rock.webp");
   background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
   width: 100% !important;
   height: 100%;
   z-index: 999;

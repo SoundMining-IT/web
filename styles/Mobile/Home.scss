@@ -184,8 +184,8 @@
   }
 
   .mining-design-carousel {
-    height: 120vh;
-    min-height: 120vh;
+    // height: 120vh;
+    // min-height: 120vh;
     margin-top: 0px;
     .boulder-outside {
       display: none;
@@ -201,7 +201,7 @@
     }
 
     .mining-carousel {
-      height: 120vh;
+      height: 100vh;
 
       .prev,
       .next {

@@ -110,7 +110,7 @@
 
 .mining-design-carousel {
   background-color: black;
-  min-height: 130vh;
+  // min-height: 120vh;
   margin-top: -200px;
   position: relative;
 
@@ -178,13 +178,17 @@
     padding: 90px 90px;
     border-radius: 200px;
     position: relative;
-    margin-bottom: 25rem;
+    margin-bottom: 15rem;
     z-index: 99999;
     backdrop-filter: blur(8px);
 
     @media screen and (max-width: 768px) {
       margin-top: 50px;
       padding: 80px 100px !important;
+    }
+
+    @media screen and (max-width: 1200px) {
+      scale: 0.8 !important;
     }
 
     .stat-wrapper {
@@ -1280,6 +1284,10 @@
         padding-right: 0px !important;
       }
     }
+  }
+
+  @media screen and (min-width: 989px) and (max-width: 1400px) {
+    scale: 0.8 !important;
   }
 }
 
