@@ -281,6 +281,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .rs-content {
+    padding-left: 0px !important;
+  }
+}
+
 .team-section {
   min-height: 100vh;
   background-image: url("../public/images/Background.webp");
@@ -292,7 +298,8 @@
 
   @media screen and (max-width: 768px) {
     .cta-button {
-      margin-bottom: 100px !important;
+      margin-bottom: 50px !important;
+      padding-top: 0px !important;
     }
   }
 
