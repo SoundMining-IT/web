@@ -234,7 +234,7 @@ p {
 }
 
 .extra-image-container {
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     padding-bottom: 0px;
     padding-top: 30px;
   }
@@ -243,7 +243,7 @@ p {
     width: 900px !important;
     height: 120px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
       width: 80% !important;
       height: 100%;
     }

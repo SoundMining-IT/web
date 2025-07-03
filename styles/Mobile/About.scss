@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #about-us-hero-container {
     .hero-mobile {
       background-color: #e9e8e3 !important;
@@ -61,7 +61,7 @@
     h1 {
       text-align: center !important;
       font-size: var(--text-xlarge);
-      padding-top: 15vh;
+      padding-top: 5vh;
       max-width: 60%;
     }
 
@@ -172,6 +172,18 @@
       .nav-button {
         scale: 0.6;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .back-to-top {
+    width: 60px;
+    height: 80px;
+
+    img {
+      width: 20px;
+      height: 20px;
     }
   }
 }

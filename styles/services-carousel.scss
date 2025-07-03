@@ -101,7 +101,7 @@
     position: absolute;
     right: 0%;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
       img {
         width: 32px;
         height: 32px;
@@ -112,7 +112,7 @@
   .prev {
     position: absolute;
     left: -10%;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
       img {
         width: 32px;
         height: 32px;
@@ -149,7 +149,7 @@
   }
 
   /* Responsive */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     .carousel-container {
       flex-direction: column;
       width: 90%;
