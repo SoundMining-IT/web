@@ -25,6 +25,7 @@ import "../styles/Mobile/technical-expertise.scss";
 import "../styles/Mobile/Insights.scss";
 import "../styles/Mobile/caseStudies.scss";
 import "../styles/Mobile/project-solutions.scss";
+import "../styles/tablet.scss";
 
 import type { AppProps } from "next/app";
 

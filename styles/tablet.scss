@@ -1,0 +1,75 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .mining-carousel .carousel-content {
+    top: 20% !important;
+  }
+
+  .mining-carousel .info-box {
+    scale: 0.85 !important;
+  }
+
+  .establish-carousel .prev {
+    left: 30%;
+  }
+
+  .establish-carousel .next {
+    right: 40%;
+  }
+
+  .team-section h1 {
+    padding-top: 0px !important;
+  }
+
+  .team-section .mobile-navigation .left {
+    left: 0px !important;
+  }
+
+  .team-section .mobile-navigation .right {
+    right: 0px !important;
+  }
+
+  .global-reach .map {
+    scale: 0.5;
+    margin-top: -10vh;
+  }
+
+  .choose-us .carousel-container .right {
+    top: 100% !important;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .choose-us .carousel-container .left {
+    top: 100% !important;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .advisory-tabs .tabs-content .left-text p {
+    max-width: 50% !important;
+  }
+
+  .advisory-tabs {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .infra-carousel-container {
+    scale: 0.6;
+  }
+
+  .case-studies .case-studies-content-wrapper .case-studies-grid {
+    display: grid !important;
+  }
+
+  .case-studies .case-studies-content-wrapper {
+    width: unset !important;
+    margin-top: 10vh !important;
+  }
+}
