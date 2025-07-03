@@ -77,6 +77,27 @@
     align-items: center;
     z-index: 2;
     height: 80%;
+
+    @media screen and (max-width: 768px) {
+      top: 0% !important;
+
+      .prev,
+      .next {
+        scale: 1 !important;
+        img {
+          width: 32px;
+          height: 32px;
+        }
+      }
+
+      .prev {
+        left: 30px !important;
+      }
+
+      .next {
+        right: -30px !important;
+      }
+    }
   }
 
   .info-box {

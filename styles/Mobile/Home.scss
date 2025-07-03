@@ -129,9 +129,19 @@
         padding: 0px;
       }
 
+      .prev {
+        left: 30px !important;
+      }
+
       .prev,
       .next {
         top: 10% !important;
+        scale: 1 !important;
+
+        img {
+          width: 32px;
+          height: 32px;
+        }
       }
     }
 
