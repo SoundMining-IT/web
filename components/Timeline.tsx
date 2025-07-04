@@ -227,8 +227,8 @@ const Timeline: React.FC = () => {
           width: 100%;
         }
         .timeline-wrapper {
-          margin-top: -80vh;
-          margin-bottom: -10vh;
+          // margin-top: -80vh;
+          // margin-bottom: -10vh;
           position: relative;
           height: 100%;
           width: 100%;
@@ -246,7 +246,7 @@ const Timeline: React.FC = () => {
           /* Kept transition for button/wheel scrolling smoothness */
           transition: transform 0.3s ease-out;
           position: relative;
-          margin-top: 750px; /* Initial offset */
+          // margin-top: 750px; /* Initial offset */
         }
         .timeline-line {
           position: absolute;

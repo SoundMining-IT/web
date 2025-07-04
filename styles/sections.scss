@@ -115,7 +115,7 @@
 .mining-design-carousel {
   background-color: black;
   // min-height: 120vh;
-  margin-top: -200px;
+  margin-top: -250px;
   position: relative;
 
   .boulder-outside {
@@ -166,7 +166,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 150vh;
+  min-height: 120vh;
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -176,8 +176,8 @@
   overflow: hidden;
   background-image: url("/images/testimonialsBackground.webp");
 
-  @media screen and (min-width: 1400px) and (max-width: 1700px) {
-    min-height: 200vh;
+  @media screen and (max-width: 1400px) {
+    min-height: 150vh;
     overflow: hidden !important;
   }
 
@@ -197,7 +197,7 @@
 
     @media screen and (min-width: 769px) and (max-width: 1400px) {
       scale: 0.8 !important;
-      margin-top: -300px;
+      margin-top: 0px;
     }
 
     .stat-wrapper {
@@ -205,6 +205,10 @@
 
       h1 {
         letter-spacing: normal;
+      }
+
+      @media screen and (max-width: 1400px) {
+        gap: 2rem;
       }
     }
 
@@ -297,7 +301,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -200px;
+  margin-top: -250px;
+  padding-top: 300px;
   overflow: hidden;
 
   @media screen and (max-width: 1024px) {
@@ -321,7 +326,7 @@
   h1 {
     font-size: var(--text-xxlarge);
     font-family: var(--teriary-font);
-    padding-top: 30rem;
+    // padding-top: 30rem;
     padding-bottom: 4rem;
     font-weight: normal;
     text-transform: uppercase;
@@ -332,14 +337,14 @@
       display: none !important;
     }
 
-    @media screen and (min-width: 1400px) and (max-width: 1700px) {
-      margin-top: -200px !important;
-    }
+    // @media screen and (min-width: 1400px) and (max-width: 1700px) {
+    //   margin-top: -200px !important;
+    // }
 
     padding-bottom: 10% !important;
     h1 {
-      // padding-block: 10rem;
-
+      padding-top: 5rem;
+      text-align: center;
       color: black;
       font-size: var(--text-xxlarge);
       font-family: var(--teriary-font);
@@ -866,6 +871,23 @@
     width: 100%;
     max-width: 1200px;
     margin-left: 30%;
+  }
+
+  @media screen and (max-width: 400px) {
+    max-width: 600px;
+
+    .tabs-container {
+      max-width: 600px;
+      scale: 0.65;
+    }
+    .tabs-header {
+      gap: 15px !important;
+    }
+
+    .section-label {
+      padding-bottom: 0 !important;
+      margin-bottom: -100px;
+    }
   }
 }
 

@@ -116,3 +116,16 @@
     }
   }
 }
+
+.advisory-tabs {
+  padding-bottom: 100px;
+  .section-label h1 {
+    text-align: center;
+    // font-size: var(--text-xlarge);
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 0;
+    margin-left: 0 !important;
+  }
+}

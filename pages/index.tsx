@@ -77,53 +77,6 @@ const AnimatedH1: React.FC<{ children: React.ReactNode; delay?: number }> = ({
   );
 };
 
-// Animation component for span elements
-const AnimatedSpan: React.FC<{ children: React.ReactNode; delay?: number }> = ({
-  children,
-  delay = 0,
-}) => {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({
-    triggerOnce: false,
-    threshold: 0.2,
-  });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    } else {
-      controls.start("hidden");
-    }
-  }, [controls, inView]);
-
-  const variants = {
-    hidden: {
-      opacity: 0,
-      y: 30,
-    },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.6,
-        ease: "easeOut",
-        delay: delay,
-      },
-    },
-  };
-
-  return (
-    <motion.span
-      ref={ref}
-      initial="hidden"
-      animate={controls}
-      variants={variants}
-    >
-      {children}
-    </motion.span>
-  );
-};
-
 // Animation wrapper for a section with staggered children
 const AnimatedSection: React.FC<{
   children: React.ReactNode;

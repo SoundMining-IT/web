@@ -61,8 +61,8 @@
     max-width: 1200px;
     z-index: 1;
     // border: 2px solid red;
-    margin: 12% auto;
-    margin-top: 80px;
+    // margin: 12% auto;
+    // margin-top: 80px;
   }
 
   .title {
@@ -218,13 +218,13 @@
   }
 
   .carousel-dots {
-    position: absolute;
-    bottom: -50px;
+    // position: absolute;
+    padding-top: 20px;
   }
 
-  .car-area {
-    height: 100px;
-  }
+  // .car-area {
+  //   height: 100px;
+  // }
 }
 
 #about-us-hero-container {
@@ -244,7 +244,7 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-start;
-    margin-top: 30%;
+    margin-top: 20vh;
 
     .title {
       max-width: 200px;
@@ -277,8 +277,10 @@
 
   @media screen and (min-width: 992px) and (max-width: 1400px) {
     .content {
-      margin-left: 300px !important;
+      margin-left: 100px !important;
       // bottom: -40% !important;
+      max-width: 800px;
+      scale: 0.85;
     }
 
     .subtitle {
@@ -288,7 +290,7 @@
   }
   .content {
     display: flex;
-    margin-top: 12%;
+    margin-top: 0;
 
     @media screen and (min-width: 1400px) and (max-width: 1700px) {
       .description {

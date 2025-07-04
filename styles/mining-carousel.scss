@@ -1,11 +1,16 @@
 .mining-carousel {
   position: relative;
   width: 100%;
-  height: 150vh;
+  height: 100vh;
+
   overflow: hidden;
 
+  @media screen and (max-width: 1400px) {
+    height: 120vh;
+  }
+
   @media screen and (min-width: 1400px) and (max-width: 1700px) {
-    height: 140vh;
+    // height: 140vh;
     .info-box {
       // border: 2px solid #8b0c1b !important;
       height: 140% !important;
@@ -53,11 +58,11 @@
   }
 
   .carousel-background {
-    // position: absolute;
+    position: relative;
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover !important;
-    top: 0;
+    margin-top: 0px;
     left: 0;
     width: 100%;
     height: 100%;

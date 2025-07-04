@@ -137,13 +137,13 @@
       }
 
       .prev {
-        left: 30px !important;
+        left: 0px !important;
       }
 
       .prev,
       .next {
-        top: 10% !important;
-        scale: 1 !important;
+        top: 280px !important;
+        scale: 0.8 !important;
 
         img {
           width: 32px;
@@ -177,7 +177,7 @@
       }
 
       .next {
-        right: 30px;
+        right: 15px;
       }
     }
 
@@ -238,7 +238,7 @@
     }
 
     .free-form-text h1 {
-      margin-top: 100px;
+      margin-top: 50px;
       font-size: var(--text-large) !important;
     }
 

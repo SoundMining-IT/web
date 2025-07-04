@@ -13,11 +13,13 @@
 
   @media screen and (min-width: 769px) and (max-width: 1400px) {
     .nav-button.right {
-      right: 12% !important;
+      right: 20px !important;
+      scale: 0.8;
     }
 
     .nav-button.left {
-      left: 12% !important;
+      left: 20px !important;
+      scale: 0.8;
     }
   }
 

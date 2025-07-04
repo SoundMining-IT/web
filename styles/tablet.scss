@@ -96,7 +96,7 @@
   }
 
   .services-carousel {
-    min-height: 80vh;
+    min-height: 60vh;
 
     .prev,
     .next {
@@ -157,9 +157,9 @@
     align-items: center !important;
     justify-content: center !important;
 
-    .carousel {
-      margin-bottom: -20%;
-    }
+    // .carousel {
+    //   margin-bottom: -20%;
+    // }
     .prev,
     .next {
       width: 80px !important;
@@ -202,7 +202,7 @@
     .next {
       right: 108px !important;
       scale: 1 !important;
-      top: 55% !important;
+      top: 35vh !important;
       img {
         width: 80px !important;
         height: 80px !important;
@@ -211,7 +211,7 @@
 
     .prev {
       scale: 1 !important;
-      top: 55% !important;
+      top: 35vh !important;
       left: 15% !important;
       img {
         width: 80px !important;
@@ -356,7 +356,7 @@
 
   .wide-screen-carousel .carousel .prev,
   .wide-screen-carousel .carousel .next {
-    top: 20% !important;
+    top: 280px !important;
   }
 
   .testimonials {

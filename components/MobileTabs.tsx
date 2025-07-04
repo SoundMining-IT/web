@@ -188,7 +188,6 @@ const ResponsiveTabsComponent: React.FC<TabsProps> = (props) => {
 
         .carousel-dot.active {
           background-color: #990033;
-          transform: scale(1.1);
         }
       `}</style>
     </>

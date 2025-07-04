@@ -285,7 +285,7 @@ const HeroCarousel: React.FC<HeroProps> = ({
               className="subtitle"
               variants={item}
               key={`subtitle-${currentSlide}`}
-              style={{ y: contentScrollY }}
+              style={{ y: contentScrollY, whiteSpace: "nowrap" }}
             >
               {currentContentData.subtitle}
             </motion.h2>

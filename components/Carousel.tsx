@@ -185,7 +185,7 @@ const Carousel = ({}) => {
   // Animation for navigation buttons
   const buttonVariants = {
     initial: { scale: 1 },
-    hover: { scale: 1.1, transition: { duration: 0.2 } },
+    hover: { scale: 1, transition: { duration: 0.2 } },
     tap: { scale: 0.95, transition: { duration: 0.1 } },
   };
 
