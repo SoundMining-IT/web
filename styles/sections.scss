@@ -526,6 +526,7 @@
   .content {
     max-width: 1200px;
     position: relative;
+    scale: 0.9 !important;
 
     .abs {
       position: absolute;
@@ -657,6 +658,8 @@
     max-width: 1200px;
     position: relative;
 
+    scale: 0.9 !important;
+
     h2 {
       color: black;
       font-family: var(--primary-font);
@@ -707,6 +710,7 @@
     position: relative;
     padding-bottom: 200px;
     text-align: center;
+    scale: 0.9 !important;
 
     img {
       width: 1200px;
@@ -750,6 +754,7 @@
 .outcome {
   min-height: 130vh;
   margin-top: -300px;
+  padding-top: 100px;
 
   @media screen and (min-width: 1400px) and (max-width: 1700px) {
     min-height: 160vh !important;
@@ -814,6 +819,12 @@
   background-color: white;
   position: relative;
 
+  @media screen and (min-width: 1024px) and (max-width: 1400px) {
+    img {
+      scale: 0.7 !important;
+    }
+  }
+
   @media screen and (min-width: 1400px) and (max-width: 1700px) {
     .abs {
       scale: 0.7 !important;
@@ -830,6 +841,12 @@
   .content {
     max-width: 800px;
     margin-left: 10%;
+
+    @media screen and (min-width: 1024px) and (max-width: 1400px) {
+      max-width: 50% !important;
+      align-self: flex-end;
+      padding-right: 50px;
+    }
 
     h1 {
       color: var(--color3);

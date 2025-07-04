@@ -378,12 +378,12 @@
   }
   .content {
     display: flex;
-    top: 10px;
+    top: -40px;
     right: 13% !important;
   }
 
   .hero-foreground-image {
-    top: -90px !important;
+    top: -50px !important;
   }
 
   .title {
@@ -602,8 +602,8 @@
   }
   @media screen and (min-width: 1400px) and (max-width: 1700px) {
     .content {
-      margin-left: 140px !important;
-      margin-top: 19% !important;
+      margin-left: 50px !important;
+      margin-top: -50px !important;
     }
   }
 
@@ -611,6 +611,7 @@
     .content {
       margin-left: 100px !important;
       // bottom: -40% !important;
+      margin-top: -50px !important;
     }
 
     .subtitle {
