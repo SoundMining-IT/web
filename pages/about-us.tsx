@@ -125,13 +125,10 @@ const About = () => {
           backgroundImage="/newImages/Hero2Mobile.webp"
         />
       </div>
-
-      <AnimatedEstablishSection />
-
+      <AnimatedEstablishSection />{" "}
       <section className="wide-screen-carousel" id="wide-screen-carousel-about">
         <EstablishCarousel />
       </section>
-
       <section className="team-section flex col ac jc">
         <AnimatedHeading style={{ color: "black" }}>
           Meet OUR Team
@@ -142,19 +139,16 @@ const About = () => {
           <Timeline />
         </div>
       </section>
-
       <section className="global-reach flex col ac jc">
         <AnimatedHeading>Our Global Reach</AnimatedHeading>
         <div className="map">
           <img src="/images/NewMap.svg" alt="World Map" />
         </div>
       </section>
-
       <section className="choose-us flex col ac jc">
         <AnimatedHeading>Why choose us</AnimatedHeading>
         <ChooseUsCarousel />
       </section>
-
       <AnimatedStatsSection />
     </Layout>
   );

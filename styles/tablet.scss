@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .mining-carousel .carousel-content {
-    top: 20% !important;
+    top: 15% !important;
   }
 
   .mining-carousel .info-box {
@@ -11,16 +11,34 @@
     left: 30%;
   }
 
+  .establish-carousel {
+    margin-top: -15% !important;
+  }
+
   .establish-carousel .next {
     right: 40%;
+  }
+
+  #wide-screen-carousel-about {
+    padding-block: 0px !important;
   }
 
   .team-section h1 {
     padding-top: 0px !important;
   }
 
+  .advisory-tabs .section-label h1 {
+    padding-top: 10vh;
+  }
+
   .team-section .mobile-navigation .left {
     left: 0px !important;
+  }
+
+  .team-section {
+    .cta-button {
+      margin-bottom: 0px !important;
+    }
   }
 
   .team-section .mobile-navigation .right {
@@ -75,5 +93,252 @@
 
   .navbar .nav-links {
     height: fit-content;
+  }
+
+  .services-carousel {
+    min-height: 80vh;
+
+    .prev,
+    .next {
+      top: 30%;
+      img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+
+    .prev {
+      left: 0%;
+    }
+
+    .next {
+      right: 6%;
+    }
+  }
+
+  #solutions-container {
+    /*
+  1. The Container: This holds all the cards.
+*/
+    .flipcard-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Centers the cards within the container */
+      gap: 25px; /* The space between your cards */
+
+      /* --- KEY FIX FOR STRETCHING --- */
+      /* Set a maximum width on the container to prevent it from becoming too wide
+     on large screens. Adjust the value to fit your design. */
+      max-width: 450px;
+
+      /* This centers the container itself on the page */
+      margin: 0 auto;
+    }
+
+    /*
+  2. The Items: The individual cards.
+*/
+    .flip-card {
+      /* This creates the two-column layout (50% width minus half the gap) */
+      flex-basis: calc(50% - 12.5px);
+
+      /* This is also important: it tells the cards NOT to grow to fill empty space. */
+      flex-grow: 0;
+    }
+  }
+
+  .did-you-know {
+    min-height: 70vh;
+  }
+
+  .wide-screen-carousel {
+    min-height: 60vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    .carousel {
+      margin-bottom: -20%;
+    }
+    .prev,
+    .next {
+      width: 80px !important;
+      height: 80px !important;
+      img {
+        width: 80px !important;
+        height: 80px !important;
+      }
+    }
+    .carousel .content-wrapper {
+      h2,
+      p {
+        max-width: 80% !important;
+        width: 100% !important;
+      }
+
+      .text-content {
+        max-width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column;
+      }
+    }
+  }
+
+  .establish-carousel {
+    .next {
+      right: 30% !important;
+      bottom: 67px !important;
+    }
+
+    .prev {
+      left: 27%;
+      bottom: 67px !important;
+    }
+  }
+
+  .mining-carousel {
+    .next {
+      right: 108px !important;
+      scale: 1 !important;
+      top: 55% !important;
+      img {
+        width: 80px !important;
+        height: 80px !important;
+      }
+    }
+
+    .prev {
+      scale: 1 !important;
+      top: 55% !important;
+      left: 15% !important;
+      img {
+        width: 80px !important;
+        height: 80px !important;
+      }
+    }
+  }
+
+  .project-tabs {
+    .flipcard-row {
+      /* This makes it a standard flex row again */
+      display: flex !important;
+      flex-wrap: wrap !important;
+      flex-direction: row !important;
+
+      /* This will center the grid of cards */
+      justify-content: center;
+
+      /* This adds space between the cards */
+      gap: 20px;
+
+      /* IMPORTANT: This prevents the cards from stretching too wide on large screens */
+      max-width: 420px;
+      margin: 0 auto !important; /* Centers the container itself */
+    }
+
+    /*
+  2. The individual cards
+*/
+    .flip-card {
+      /* This creates the two-column layout (50% width minus half the gap) */
+      flex-basis: calc(50% - 10px);
+
+      /* This prevents the last card from stretching if it's alone on a row */
+      flex-grow: 0;
+
+      /* Set a consistent height as seen in your design */
+      height: 230px !important;
+    }
+  }
+
+  .two-sided-tabs {
+    min-height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+
+    .content {
+      padding-top: 0px !important;
+    }
+
+    .right-side {
+      height: 100% !important;
+      margin-top: 25%;
+    }
+  }
+
+  .choose-us {
+    min-height: 75vh;
+  }
+
+  .hero-mobile .hero-mobile-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1,
+    h2 {
+      max-width: 70%;
+    }
+
+    p {
+      max-width: 60%;
+      font-size: var(--text-large) !important;
+      line-height: normal !important;
+    }
+  }
+
+  .establish-section .establish {
+    min-height: 50vh;
+  }
+
+  .outcome .left-section {
+    height: 70vh !important;
+  }
+
+  .outcome .left-section .content .list ul {
+    padding-left: 180px !important;
+  }
+
+  .partner {
+    height: 70vh;
+    min-height: 70vh;
+  }
+
+  .study-hero {
+    min-height: 70vh;
+  }
+
+  .geology .content #geology-wrapper h1 {
+    padding-top: 10%;
+  }
+
+  .geology .content #geology-wrapper {
+    h1,
+    h2,
+    p,
+    span {
+      max-width: 50% !important;
+    }
+  }
+
+  .outcome .left-section .content h2,
+  .outcome .left-section .content span {
+    max-width: 80%;
+  }
+
+  .outcome .left-section {
+    min-height: 80vh;
+  }
+
+  .outcome .left-section .content .list {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

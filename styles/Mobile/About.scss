@@ -186,4 +186,28 @@
       height: 20px;
     }
   }
+
+  .advisory-tabs .section-label h1 {
+    max-width: 70% !important;
+  }
+
+  .advisory-tabs .section-label {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+
+  .case-studies .case-studies-content-wrapper {
+    margin-top: 10vh !important;
+  }
+
+  .outcome .left-section {
+    min-height: 100vh !important;
+    height: 100vh;
+  }
+
+  .challenging-environment .content h1 {
+    font-size: var(--text-large) !important;
+  }
 }
