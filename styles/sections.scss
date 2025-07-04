@@ -166,7 +166,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 120vh;
+  min-height: 160vh;
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -176,7 +176,7 @@
   overflow: hidden;
   background-image: url("/images/testimonialsBackground.webp");
 
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1200px) {
     min-height: 150vh;
     overflow: hidden !important;
   }
