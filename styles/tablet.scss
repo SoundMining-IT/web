@@ -342,3 +342,100 @@
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+  .mining-design-carousel {
+    .info-box {
+      margin-top: -70px;
+    }
+  }
+
+  .wide-screen-carousel .carousel {
+    margin-top: -100px !important;
+  }
+
+  .wide-screen-carousel .carousel .prev,
+  .wide-screen-carousel .carousel .next {
+    top: 20% !important;
+  }
+
+  .testimonials {
+    min-height: 150vh !important;
+  }
+
+  .testimonials .stats-graph {
+    margin-top: 0px !important;
+  }
+
+  .cta-banner {
+    min-height: 70vh !important;
+  }
+
+  .establish-carousel {
+    margin-top: -8% !important;
+  }
+
+  .team-section {
+    min-height: 90vh !important;
+  }
+
+  .global-reach {
+    min-height: 90vh !important;
+  }
+
+  .choose-us {
+    min-height: 90vh !important;
+  }
+
+  .advisory-tabs .tabs-header {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .corp-tabs {
+    padding-inline: 0px !important;
+  }
+
+  #solutions-container .flipcard-container {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+
+  .did-you-know .content .left h1 {
+    max-width: 100% !important;
+  }
+
+  .did-you-know .content .right p {
+    padding-bottom: 5% !important;
+  }
+
+  .env-button {
+    margin-left: 50px !important;
+  }
+
+  .tabs-container .tabs-header {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 30px !important;
+  }
+
+  .two-sided-tabs .right-side {
+    height: 400px !important;
+  }
+
+  .two-sided-tabs .right-side .section-label {
+    margin-top: -30px;
+  }
+
+  .case-studies-content-wrapper .case-studies-grid {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem; /* adjust as needed for spacing */
+    padding: 2rem 0;
+  }
+
+  .technical-tabs .section-label h1 {
+    margin-left: 0px !important;
+  }
+}
