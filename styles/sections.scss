@@ -876,17 +876,17 @@
   @media screen and (max-width: 400px) {
     max-width: 600px;
 
-    .tabs-container {
-      max-width: 600px;
-      scale: 0.65;
-    }
+    // .tabs-container {
+    //   max-width: 600px;
+    //   scale: 0.65;
+    // }
     .tabs-header {
       gap: 15px !important;
     }
 
     .section-label {
       padding-bottom: 0 !important;
-      margin-bottom: -100px;
+      // margin-bottom: -100px;
     }
   }
 }
@@ -1361,4 +1361,33 @@
 
 .mining-title {
   font-family: var(--primary-font) !important;
+}
+
+@media screen and (max-width: 600px) {
+  .testimonials {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tabs-flipcards-container,
+  .tabs-content,
+  .tabs-header {
+    max-width: 400px !important;
+    padding: 0 !important;
+    scale: 0.95;
+  }
+
+  .tabs-header {
+    scale: 0.5;
+  }
+  #solutions-container .tabs-content .flipcard-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    scale: 0.65;
+    margin-top: -50px;
+  }
+
+  .section-label {
+    scale: 0.75;
+  }
 }
