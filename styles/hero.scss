@@ -602,7 +602,7 @@
   }
   @media screen and (min-width: 1400px) and (max-width: 1700px) {
     .content {
-      margin-left: 50px !important;
+      margin-left: -50px !important;
       margin-top: -50px !important;
     }
   }
@@ -620,8 +620,8 @@
     }
   }
   .content {
-    margin-top: 20%;
-    margin-left: 300px;
+    // margin-top: 20%;
+    // margin-left: 300px;
   }
   .description {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
