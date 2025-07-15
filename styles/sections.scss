@@ -951,6 +951,7 @@
       margin-left: 0px !important;
       text-align: center !important;
       width: 100% !important;
+      scale: 0.7;
     }
 
     .project-content {
@@ -974,7 +975,7 @@
 
   @media screen and (min-width: 1400px) and (max-width: 1700px) {
     .right-side {
-      margin-left: -200px !important;
+      margin-left: -300px !important;
 
       .content {
         padding-top: 200px !important;
@@ -1011,7 +1012,7 @@
     width: 90%;
     height: 130vh;
     // border: 2px solid red;
-    margin-left: -400px;
+    margin-left: -200px;
 
     .right-text p {
       max-width: 100%;
