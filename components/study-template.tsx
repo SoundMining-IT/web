@@ -9,6 +9,7 @@ import Outcome from "./CaseStudies/Outcome";
 import Partner from "./CaseStudies/Partner";
 // import ProcessItemsComponent from "./ProcessItemsComponent";
 import type { ProcessItemData } from "./ProcessItemsComponent";
+import SeoMeta from "./SEO";
 
 // Interface matching the exported data structure
 export interface CaseStudyData {
@@ -54,8 +55,19 @@ export interface CaseStudyData {
 }
 
 const CaseStudyTemplate: React.FC<CaseStudyTemplateProps> = ({ data }) => {
+  const pageTitle = "Case Study";
+  const pageDescription = "";
+  const pageImage = "/images/Sound Mining logo.jpg";
+  const imageAlt = "Sound Mining Logo";
   return (
     <Layout>
+      <SeoMeta
+        title={pageTitle}
+        description={pageDescription}
+        ogImage={pageImage}
+        ogImageAlt={imageAlt}
+        siteName="Sound Mining"
+      />
       <StudyHero
         heroImage={data.heroImage}
         title={data.heroTitle}
